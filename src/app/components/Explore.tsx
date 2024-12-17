@@ -26,7 +26,7 @@ function Explore() {
 
     {
       id: 3,
-      image: '/images/image7.png',
+      image: '/images/product7.png',
       roomType: '03 === Living Room',
       roomName: 'Cozy Vibes',
 

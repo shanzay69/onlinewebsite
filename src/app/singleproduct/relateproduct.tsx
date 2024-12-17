@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 
 function relateproduct() {
@@ -8,13 +9,13 @@ function relateproduct() {
         price:'Rp 2.500.000',
         oldprice:'Rp 3.500.000',
         discount:'-30%',
-        image:'/images/image1.png',
+        image:'/images/product1.png',
         },
         {
         name:'Leviosa',
         description:'Stylish cafe chair',
         price:'Rp 2.500.000',
-        image:'/images/image2.png',
+        image:'/images/product2.png',
         },
         {
         name:'Lolito',
@@ -22,14 +23,14 @@ function relateproduct() {
         price:'Rp 7.000.000',
         oldprice:'Rp 14.000.000',
         discount:'-50%',
-        image:'/images/image3.png',
+        image:'/images/product3.png',
         },
    {
    name:'Respira',
    description:'Outdoor bar table and stool',
    price:'Rp 500.000',
    new: true,
-   image:'/images/image4.png',
+   image:'/images/product4.png',
    
    },
     ];
@@ -58,7 +59,7 @@ className='bg-[#F4F5F7] rounded-lg shadow-lg overflow-hidden group relative w-[3
    <img
    src={relateProduct.image}
    alt={relateProduct.name}
-   className='w-[330px] h-[310px] object cover'
+   className='w-[350px] h-[310px] object cover'
    /> 
      </div>
    <div className='p-4'>
